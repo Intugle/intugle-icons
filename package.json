@@ -1,0 +1,40 @@
+{
+  "name": "@intugle/icons",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared lazy-loaded bundle icons for Intugle applications.",
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "SOURCES.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.0.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "generate:langflow-manifest": "node scripts/generate-langflow-manifest.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  }
+}
