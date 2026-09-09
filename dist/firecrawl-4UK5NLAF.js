@@ -1,0 +1,14 @@
+import { jsxs, jsx } from 'react/jsx-runtime';
+
+// src/icons/firecrawl.tsx
+function FirecrawlIcon(props) {
+  return /* @__PURE__ */ jsxs("svg", { viewBox: "-33 0 255 255", xmlns: "http://www.w3.org/2000/svg", ...props, children: [
+    /* @__PURE__ */ jsx("path", { fill: "#FF6A0D", d: "M188 165c-2 50-43 90-94 90C42 255 0 211 0 161c0-27 11-46 22-73 2-5 5-11 10 0 4 7 4 16 4 16 30-23 40-58 23-94-3-8 0-12 8-9 40 15 66 55 71 90 10-8 8-23 16-15 25 31 35 59 34 89Z" }),
+    /* @__PURE__ */ jsx("path", { fill: "#FC9502", d: "M94 255c-36 0-65-29-65-65 0-22 9-35 27-53 17-17 26-33 27-35 3-5 8 8 12 17 7 16 23 40 35 25 4-8 8-17 14-5 10 15 15 32 15 51 0 36-29 65-65 65Z" }),
+    /* @__PURE__ */ jsx("path", { fill: "#FCE202", d: "M95 184c9 0 9 17 21 40 8 15-4 31-21 31-17 0-26-14-26-31s17-40 26-40Z" })
+  ] });
+}
+
+export { FirecrawlIcon as default };
+//# sourceMappingURL=firecrawl-4UK5NLAF.js.map
+//# sourceMappingURL=firecrawl-4UK5NLAF.js.map

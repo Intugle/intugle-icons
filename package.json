@@ -34,7 +34,6 @@
   "scripts": {
     "build": "tsup",
     "generate:langflow-manifest": "node scripts/generate-langflow-manifest.mjs",
-    "prepare": "npm run build",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   }
